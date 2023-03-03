@@ -19,6 +19,7 @@ public class Main extends Canvas implements Runnable, MouseListener {
         JFrame jFrame = new JFrame("Meu Jogo - Jogos Digitais");
         jFrame.add(main);
         jFrame.setLocationRelativeTo(null);
+        jFrame.setResizable(false);
         jFrame.pack();
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

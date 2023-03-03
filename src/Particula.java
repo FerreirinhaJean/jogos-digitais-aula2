@@ -4,8 +4,6 @@ import java.util.Random;
 public class Particula extends Rectangle {
     public Color color;
     public int speed = 0;
-    public int rotation = 0;
-
     public double dx, dy;
     public double xa, ya;
     public int timer = 0;

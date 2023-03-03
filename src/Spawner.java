@@ -11,7 +11,7 @@ public class Spawner {
 
     public void update() {
         timer++;
-        if (timer % 60 == 0) {
+        if (timer % 40 == 0) {
             rectangles.add(new RectObj(0, new Random().nextInt(480 - 40), 40, 40));
         }
 
